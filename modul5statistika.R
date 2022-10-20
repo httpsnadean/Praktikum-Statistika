@@ -1,0 +1,5 @@
+Nadin=read.delim("clipboard")
+View(Nadin)
+str(Nadin)
+mean(Nadin$Pendapatan)
+t.test(Nadin$Pendapatan, mu=14500)
